@@ -1,0 +1,55 @@
+{"State":{"Running":true,"Paused":false,"Restarting":false,"OOMKilled":false,"Dead":false,"Pid":26434,"ExitCode":0,"Error":"","StartedAt":"2017-08-25T15:47:57.59876
+    5853Z","FinishedAt":"2017-08-25T15:43:06.286211579Z"},"ID":"b04b37751a72bd1169fe06b76b8f3737d0758ed8c96ab82b4751647e97c1e741","Created":"2017-08-23T16:18:43.6822786
+    09Z","Path":"/usr/local/taiga/start","Args":[],"Config":{"Hostname":"mgr","Domainname":"sripirom.com","User":"","AttachStdin":false,"AttachStdout":false,"AttachStde
+    rr":false,"ExposedPorts":{"443/tcp":{},  "80/tcp"  :{}},"Tty":false,"OpenStdin":false,"StdinOnce":false,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/
+    sbin:/bin","NGINX_VERSION=1.7.12-1~wheezy"],"Cmd":["/usr/local/taiga/start"],"Image":"taiga_taigafront","Volumes":{"/var/cache/nginx":{}},"WorkingDir":"","Entrypoin
+    t":null,"OnBuild":null,"Labels":{"com.docker.compose.config-hash":"1694d9382bcb94215d71b4bc48949c4cfdcd666b03d09b7f42be29d74a7bd879","com.docker.compose.container-n
+    umber":"1","com.docker.compose.oneoff":"False","com.docker.compose.project":"taiga","com.docker.compose.service":"taigafront","com.docker.compose.version":"1.15.0"}
+    },"Image":"1eb94fdb46412dac0249db5f03ba99c5656d64ab47b9c3cc362190307815043d","NetworkSettings":{"Bridge":"","SandboxID":"ecccda45d56ca92ac811cf32a40fae3bee522125edc
+    c0d8b0e322a22d68bc273","HairpinMode":false,"LinkLocalIPv6Address":"","LinkLocalIPv6PrefixLen":0,"Networks":{"bridge":{"EndpointID":"22ad52745962e1d89aa2d819bd44a657
+    768fe74a56d242f5360c8c83cf3580a8","Gateway":"172.17.0.1","IPAddress":"172.17.0.4","IPPrefixLen":16,"IPv6Gateway":"","GlobalIPv6Address":"","GlobalIPv6PrefixLen":0,"
+    MacAddress":"02:42:ac:11:00:04"}},"Ports":{"443/tcp":null,"80/tcp":[{"HostIp":"0.0.0.0","HostPort":"80"}]},"SandboxKey":"/var/run/docker/netns/ecccda45d56c","Second
+    aryIPAddresses":null,"SecondaryIPv6Addresses":null,"IsAnonymousEndpoint":false},"LogPath":"/var/lib/docker/containers/b04b37751a72bd1169fe06b76b8f3737d0758ed8c96ab8
+    2b4751647e97c1e741/b04b37751a72bd1169fe06b76b8f3737d0758ed8c96ab82b4751647e97c1e741-json.log","Name":"/taiga_taigafront_1","Driver":"aufs","ExecDriver":"native-0.2"
+    ,"MountLabel":"","ProcessLabel":"","RestartCount":0,"HasBeenStartedBefore":false,"HasBeenManuallyStopped":false,"AppArmorProfile":"","HostnamePath":"/var/lib/docker
+    /containers/b04b37751a72bd1169fe06b76b8f3737d0758ed8c96ab82b4751647e97c1e741/hostname","HostsPath":"/var/lib/docker/containers/b04b37751a72bd1169fe06b76b8f3737d0758
+    ed8c96ab82b4751647e97c1e741/hosts","ShmPath":"/var/lib/docker/containers/b04b37751a72bd1169fe06b76b8f3737d0758ed8c96ab82b4751647e97c1e741/shm","MqueuePath":"/var/li
+    b/docker/containers/b04b37751a72bd1169fe06b76b8f3737d0758ed8c96ab82b4751647e97c1e741/mqueue","MountPoints":{"/usr/local/taiga/logs":{"Name":"e2c0e8b0d1b9cb437506212
+    c074b1761337fea4659d3543da39b016f8ab5642d","Destination":"/usr/local/taiga/logs","Driver":"local","RW":true,"Source":"","Relabel":""},"/usr/local/taiga/media":{"Nam
+    e":"df51f88ddc743e1287b08bc637652d5c3ed0e87e8bce523e4578de52bc720f6d","Destination":"/usr/local/taiga/media","Driver":"local","RW":true,"Source":"","Relabel":""},"/
+    usr/local/taiga/static":{"Name":"c56de934a417ea36c2cb0cc17fa7ef38d21528dd6ad5d767f81d307326bbcb12","Destination":"/usr/local/taiga/static","Driver":"local","RW":tru
+    e,"Source":"","Relabel":""},"/var/cache/nginx":{"Name":"e857cacc981ada615aa9fde4951b967051244e236636a930f349a7f637f37226","Destination":"/var/cache/nginx","Driver":
+    "local","RW":true,"Source":"","Relabel":""},"/var/lib/postgresql/data":{"Name":"2077abed73f6d84da62257785df14b24a20bf816b2718b5c1406403f9749903c","Destination":"/va
+    r/lib/postgresql/data","Driver":"local","RW":true,"Source":"","Relabel":""}},"ResolvConfPath":"/var/lib/docker/containers/b04b37751a72bd1169fe06b76b8f3737d0758ed8c9
+    6ab82b4751647e97c1e741/resolv.conf","Volumes":{"/usr/local/taiga/logs":"/var/lib/docker/volumes/e2c0e8b0d1b9cb437506212c074b1761337fea4659d3543da39b016f8ab5642d/_da
+    ta","/usr/local/taiga/media":"/var/lib/docker/volumes/df51f88ddc743e1287b08bc637652d5c3ed0e87e8bce523e4578de52bc720f6d/_data","/usr/local/taiga/static":"/var/lib/do
+    cker/volumes/c56de934a417ea36c2cb0cc17fa7ef38d21528dd6ad5d767f81d307326bbcb12/_data","/var/lib/postgresql/data":"/var/lib/docker/volumes/2077abed73f6d84da62257785df
+    14b24a20bf816b2718b5c1406403f9749903c/_data"},"VolumesRW":{"/usr/local/taiga/logs":true,"/usr/local/taiga/media":true,"/usr/local/taiga/static":true,"/var/lib/postg
+    resql/data":true}}
+
+    root@sripirom-mgr:/var/lib/docker/containers/87bf2e90647dee5c40a16669b8904e466880865f702fe57617521ecad40a4316# cat config.json
+    {"State":{"Running":true,"Paused":false,"Restarting":false,"OOMKilled":false,"Dead":false,"Pid":5789,"ExitCode":0,"Error":"","StartedAt":"2017-08-24T03:55:25.612725
+    844Z","FinishedAt":"0001-01-01T00:00:00Z"},"ID":"87bf2e90647dee5c40a16669b8904e466880865f702fe57617521ecad40a4316","Created":"2017-08-24T03:55:25.299853447Z","Path"
+    :"/bin/tini","Args":["--","/usr/local/bin/jenkins.sh"],"Config":{"Hostname":"87bf2e90647d","Domainname":"","User":"jenkins","AttachStdin":false,"AttachStdout":false
+    ,"AttachStderr":false,"ExposedPorts":{"50000/tcp":{},"8080/tcp":{}},"Tty":true,"OpenStdin":true,"StdinOnce":false,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/s
+    bin:/usr/bin:/sbin:/bin","LANG=C.UTF-8","JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64","JAVA_VERSION=8u121","JAVA_DEBIAN_VERSION=8u121-b13-1~bpo8+1","CA_CERTIFICATES
+    _JAVA_VERSION=20161107~bpo8+1","LTTNG_UST_REGISTER_TIMEOUT=0","DOTNET_VERSION=1.0.4","DOTNET_DOWNLOAD_URL=https://dotnetcli.blob.core.windows.net/dotnet/preview/Bin
+    aries/1.0.4/dotnet-debian-x64.1.0.4.tar.gz","DOTNET_SDK_VERSION=1.0.1","DOTNET_SDK_DOWNLOAD_URL=https://dotnetcli.blob.core.windows.net/dotnet/Sdk/1.0.1/dotnet-dev-
+    debian-x64.1.0.1.tar.gz","NUGET_XMLDOC_MODE=skip","JENKINS_HOME=/var/jenkins_home","JENKINS_SLAVE_AGENT_PORT=50000","TINI_VERSION=0.13.2","TINI_SHA=afbf8de8a63ce8e4
+    f18cb3f34dfdbbd354af68a1","JENKINS_VERSION=2.32.3","JENKINS_UC=https://updates.jenkins.io","COPY_REFERENCE_FILE_LOG=/var/jenkins_home/copy_reference_file.log"],"Cmd
+    ":null,"Image":"chenug/jenkins-dotnet:1.0","Volumes":{"/var/jenkins_home":{}},"WorkingDir":"","Entrypoint":["/bin/tini","--","/usr/local/bin/jenkins.sh"],"OnBuild":
+    null,"Labels":{},"StopSignal":"SIGTERM"},"Image":"485c36f889d7c9dc697785b725f693398c6469a76289562adb81756d48d23c2c","NetworkSettings":{"Bridge":"","SandboxID":"7075
+    fdc0ae5470751010e0a96af67b7079c9133c10c2b245bf7e33f3393afa52","HairpinMode":false,"LinkLocalIPv6Address":"","LinkLocalIPv6PrefixLen":0,"Networks":{"bridge":{"Endpoi
+    ntID":"3972ff22d93c55e29697c4f5bc764ce21c4350259033c00e17a5a147a3796ead","Gateway":"172.17.0.1","IPAddress":"172.17.0.6","IPPrefixLen":16,"IPv6Gateway":"","GlobalIP
+    v6Address":"","GlobalIPv6PrefixLen":0,"MacAddress":"02:42:ac:11:00:06"}},"Ports":{"50000/tcp":[{"HostIp":"0.0.0.0","HostPort":"50000"}],"8080/tcp":[{"HostIp":"0.0.0
+    .0","HostPort":"8080"}]},"SandboxKey":"/var/run/docker/netns/7075fdc0ae54","SecondaryIPAddresses":null,"SecondaryIPv6Addresses":null,"IsAnonymousEndpoint":false},"L
+    ogPath":"/var/lib/docker/containers/87bf2e90647dee5c40a16669b8904e466880865f702fe57617521ecad40a4316/87bf2e90647dee5c40a16669b8904e466880865f702fe57617521ecad40a431
+    6-json.log","Name":"/jenkins","Driver":"aufs","ExecDriver":"native-0.2","MountLabel":"","ProcessLabel":"","RestartCount":0,"HasBeenStartedBefore":false,"HasBeenManu
+    allyStopped":false,"AppArmorProfile":"","HostnamePath":"/var/lib/docker/containers/87bf2e90647dee5c40a16669b8904e466880865f702fe57617521ecad40a4316/hostname","Hosts
+    Path":"/var/lib/docker/containers/87bf2e90647dee5c40a16669b8904e466880865f702fe57617521ecad40a4316/hosts","ShmPath":"/var/lib/docker/containers/87bf2e90647dee5c40a1
+    6669b8904e466880865f702fe57617521ecad40a4316/shm","MqueuePath":"/var/lib/docker/containers/87bf2e90647dee5c40a16669b8904e466880865f702fe57617521ecad40a4316/mqueue",
+    "MountPoints":{"/home/pichit/jenkins_home":{"Name":"","Destination":"/home/pichit/jenkins_home","Driver":"","RW":true,"Source":"/home/jenkins_home","Relabel":""},"/
+    var/jenkins_home":{"Name":"f14e00eadc900e38f13142349f2bec672f25e08bd2b1452e4be39cd252970e57","Destination":"/var/jenkins_home","Driver":"local","RW":true,"Source":"
+    ","Relabel":""}},"ResolvConfPath":"/var/lib/docker/containers/87bf2e90647dee5c40a16669b8904e466880865f702fe57617521ecad40a4316/resolv.conf","Volumes":{"/home/pichit
+    /jenkins_home":"/home/jenkins_home"},"VolumesRW":{"/home/pichit/jenkins_home":true}}root@sripirom-mgr:/var/lib/docker/containers/87bf2e90647dee5c40a16669b8904e46688
+    0865f702fe57617521ecad40a4316# 
